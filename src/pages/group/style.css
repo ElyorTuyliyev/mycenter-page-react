@@ -1,0 +1,13 @@
+.card__home {
+  margin-top: 40px;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.group__title {
+  margin-top: 20px;
+  font-weight: 400;
+  color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
