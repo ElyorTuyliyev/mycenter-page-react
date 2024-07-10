@@ -11,6 +11,7 @@ function Homework() {
       dataText: "Yaratilgan",
       data: "02.07.2024s",
       icon2: "fa-regular fa-clock",
+      finishDataText: "Tugash muddat",
     },
   ];
   return (

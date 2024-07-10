@@ -15,7 +15,7 @@ function CardHomework(props) {
           <div>
             <i className={props.icon2}></i>
             <p>
-              {props.finishDataText} <span>{props.finishData}</span>
+              {props.finishDataText} <span>{props.finishDatayarn}</span>
             </p>
           </div>
         </div>
