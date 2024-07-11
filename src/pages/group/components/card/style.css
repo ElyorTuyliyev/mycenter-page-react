@@ -7,10 +7,10 @@
   align-items: center;
   padding: 40px 0;
   border-radius: 8px;
-  box-shadow: 10px 10px 10px rgb(181, 181, 181);
+  box-shadow: 0 0 5px #bdbdbd;
   transition: 0.7s;
   &:hover {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
 }
 

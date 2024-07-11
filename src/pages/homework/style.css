@@ -1,11 +1,11 @@
-.card__home {
-  margin-top: 20px;
+.homework__card-wrapper {
   display: flex;
-  gap: 50px;
   flex-wrap: wrap;
+  gap: 16px;
+  margin: 20px 0;
 }
 
-.group__title {
+.homework__title {
   margin-top: 20px;
   font-size: 25px;
   font-weight: 400;

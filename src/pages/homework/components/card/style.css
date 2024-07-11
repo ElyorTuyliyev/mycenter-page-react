@@ -1,0 +1,52 @@
+.home__card-wrapper {
+  max-width: 347px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 0 5px #bdbdbd;
+  border-radius: 4px;
+  transition: 0.5s;
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.home__card-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2c2c2c;
+  margin: 0 0 10px 0;
+}
+
+.home__teacher {
+  font-size: 16px;
+  color: #797979;
+  margin: 0 0 4px 0;
+}
+
+.home__teacher-name {
+  font-size: 17px;
+  margin: 0 0 12px 0;
+}
+
+.home__data-wrapper {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.home__data-icon-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  i {
+    font-size: 18px;
+    color: #7d7d7d;
+  }
+  p {
+    color: #797979;
+    span {
+      color: #3d3d3d;
+      font-weight: 400;
+    }
+  }
+}

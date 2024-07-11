@@ -1,21 +1,23 @@
+import "./style.css";
+
 function CardHomework(props) {
   return (
     <>
       <div className="home__card-wrapper">
         <h3 className="home__card-title">{props.title}</h3>
-        <p>{props.teacher}</p>
-        <p>{props.teacherName}</p>
-        <div>
-          <div>
+        <p className="home__teacher">{props.teacher}</p>
+        <p className="home__teacher-name">{props.teacherName}</p>
+        <div className="home__data-wrapper">
+          <div className="home__data-icon-wrapper">
             <i className={props.icon1}></i>
             <p>
-              {props.dataText} <span>{props.data}</span>
+              {props.dataText} <br /> <span>{props.data}</span>
             </p>
           </div>
-          <div>
+          <div className="home__data-icon-wrapper">
             <i className={props.icon2}></i>
             <p>
-              {props.finishDataText} <span>{props.finishDatayarn}</span>
+              {props.finishDataText} <br /> <span>{props.finishData}</span>
             </p>
           </div>
         </div>
